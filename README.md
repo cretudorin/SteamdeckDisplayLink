@@ -1,12 +1,9 @@
-# SteamdeckDisplayLink
-Steamdeck OS DisplayLink install script
-
+# DisplayLink support for SteamOS / Steam Deck
 
 ## Installation 
 `curl -fsSL https://raw.githubusercontent.com/cretudorin/SteamdeckDisplayLink/refs/heads/main/DisplayLink.sh | bash`
 
 ###  ⚠️ ⚠️ This script needs to be executed after every SteamOs update  ⚠️ ⚠️
-
 
 ## What does it do?
 * checks if it is running on SteamOS
@@ -18,6 +15,7 @@ Steamdeck OS DisplayLink install script
 * builds and installs the DisplayLink driver from the AUR
 * enables and starts the displaylink.service systemd service
 
+## Only tested on Steam Deck running SteamOS
 
 ## Source
 
